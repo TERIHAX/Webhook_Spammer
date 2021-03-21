@@ -1,7 +1,0 @@
-D:\Applications\Webhook Spammer\Webhook Spammer\bin\x86\Release\Webhook Spammer.exe.config
-D:\Applications\Webhook Spammer\Webhook Spammer\bin\x86\Release\Webhook Spammer.exe
-D:\Applications\Webhook Spammer\Webhook Spammer\bin\x86\Release\Webhook Spammer.pdb
-D:\Applications\Webhook Spammer\Webhook Spammer\obj\x86\Release\Webhook Spammer.csprojAssemblyReference.cache
-D:\Applications\Webhook Spammer\Webhook Spammer\obj\x86\Release\Webhook Spammer.csproj.CoreCompileInputs.cache
-D:\Applications\Webhook Spammer\Webhook Spammer\obj\x86\Release\Webhook Spammer.exe
-D:\Applications\Webhook Spammer\Webhook Spammer\obj\x86\Release\Webhook Spammer.pdb
