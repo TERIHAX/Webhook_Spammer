@@ -10,3 +10,6 @@ It uses 2 ways to send to the webhook,
 2. System.Net.HttpClient()
 ```
 When the 1st way gets an error because of too many requests, it switches to the 2nd, back & forth.
+
+Documentation/How to Use:
+Make sure there's 2 files, **Webhook.txt** and **Message.txt**. In **Webhook.txt** add the webhook link, in **Message.txt**, add the message you want to spam.
