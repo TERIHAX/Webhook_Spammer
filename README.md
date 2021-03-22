@@ -2,14 +2,11 @@
 Webhook Spammer by me (TERI#6116) Make sure to give credits! AND NO IT'S NOT SKIDDED
 
 Screenshot:
-![ss](https://cdn.discordapp.com/attachments/818588428685148200/823175617461092372/webhookspammer.png)
+![ss](https://cdn.discordapp.com/attachments/613066593177436160/823650616240242718/unknown.png)
 
-It uses 2 ways to send to the webhook,
+Same as the spammer, it uses 2 ways to send to the webhook,
 ```cs
 1. System.Net.WebClient().UploadValues(string address, NameValueCollection data)
 2. System.Net.HttpClient().PostAsync(string requestUri, HttpContent content)
 ```
-When the 1st way gets an error because of too many requests, it switches to the 2nd, back & forth.
-
-Documentation/How to Use:
-Make sure there's 2 files, **Webhook.txt** and **Message.txt**. In **Webhook.txt** add the webhook link, in **Message.txt**, add the message you want to spam.
+When the 1st way gets an error (just in case), it switches to the 2nd, & then goes back to the 1st.
