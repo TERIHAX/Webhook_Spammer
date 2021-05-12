@@ -6,7 +6,7 @@ Screenshot:
 
 It uses 2 ways to send to the webhook,
 ```cs
-1. System.Net.WebClient().UploadValues(string address, NameValueCollection data)
-2. System.Net.HttpClient().PostAsync(string requestUri, HttpContent content)
+1. System.Net.WebClient().UploadValues(string, NameValueCollection)
+2. System.Net.HttpClient().PostAsync(string, HttpContent)
 ```
 When the 1st way gets an error because of too many requests, it switches to the 2nd, & then goes back to the 1st.
